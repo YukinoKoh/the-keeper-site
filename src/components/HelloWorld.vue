@@ -1,32 +1,17 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
+    <h2>
+      荷物の受け取りや受け渡し、忙しく家にいない時に不便と感じていませんか？<br>
+      家にあるサーフボード、ゴルフバッグ、貸すことは無理と思っていませんか？<br>
+    </h2>
+    <!--<img alt="Vue logo" src="./../assets/logo2.png">-->
     <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
+      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">Privacy Policy</a></li>
+      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">Terms of Service</a></li>
     </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+    <a href="#" class="myButton">+</a>
+  </div>
   </div>
 </template>
 
@@ -41,9 +26,22 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+#app{
+  background-color: #000;
+}
+h1 {
+  color: #ffffff;
+  font-size: 48px;
+}
+h2 {
+  color: #a3d4ff;
+  font-size: 18px;
+  font-weight: 500;
+}
 h3 {
   margin: 40px 0 0;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -53,6 +51,34 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #2864f0;
+}
+.myButton {
+    -moz-box-shadow: 0px 3px 3px -2px #2f65b7;
+    -webkit-box-shadow: 0px 3px 3px -2px #2f65b7;
+    box-shadow: 0px 3px 3px -2px #2f65b7;
+    background-color:#fff;
+    -moz-border-radius:37px;
+    -webkit-border-radius:37px;
+    border-radius:37px;
+    display:inline-block;
+    cursor:pointer;
+    color:#2f65b7;
+    font-family:Arial;
+    font-size:24px;
+    padding:20px;
+    width: 25px;
+    height: 25px;	
+    text-decoration:none;
+    position: fixed;
+    bottom: 48px;
+    right: 48px;
+}
+.myButton:hover {
+	background-color:#a3d4ff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
 </style>
