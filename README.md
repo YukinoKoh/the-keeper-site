@@ -13,17 +13,16 @@ The Keeperは「助けてもらいたいけど色々な人を紹介するなん�
 
 「平日にサーフボードを渡すのは無理だ。。なぜか急に山田がサーフィンする気になってボード貸してって言っているが。。いつも暇そうな近所のカフェの店主に預けられたらな、、でも店主は山田のこと知らないから、説明が面倒だ。。諦めるしかないのか。せっかくサーフィン友達ができそうなのに><..」そんな時にThe keeperを使いましょう。
 
-- 1. 依頼人はThe keeperへ受取人を連絡する
-- 2. 受取人はThe keeperから送られたQRコードで認証を受けて受取りを完了する
-- 3. 3. 依頼人は受取り完了の通知を受け取る
+1. 依頼人はThe keeperへ受取人を連絡する
+2. 受取人はThe keeperから送られたQRコードで認証を受けて受取りを完了する
+3. 依頼人は受取り完了の通知を受け取る
 
 # チーム
-[Yukino Kohmoto](http://yukinokoh.github.io/)
-Miyuki Okabe
-Michikazu Sugahara
-Shintaro Umezawa
-Koji Yamamoto
-
+- Miyuki Okabe
+- Michikazu Sugahara
+- Shintaro Umezawa
+- Koji Yamamoto
+- [Yukino Kohmoto](http://yukinokoh.github.io/)
 
 
 
