@@ -17,6 +17,9 @@ The Keeperは「助けてもらいたいけど色々な人を紹介するなん�
 2. 受取人はThe keeperから送られたQRコードで認証を受けて受取りを完了する
 3. 依頼人は受取り完了の通知を受け取る
 
+# memo
+ランディングページはnpm vuejsを使っています。サイトを確認する場合はサイトフォルダーで`npm run serve`コマンドを使います。
+
 # チーム
 - Miyuki Okabe
 - Michikazu Sugahara
