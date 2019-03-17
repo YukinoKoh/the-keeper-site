@@ -1,4 +1,4 @@
-![The Keeper icon](readme-img/the-keeper-logo.png)
+![The Keeper icon](readme-img/the-keeper-logo1.png)
 # このプロジェクトについて
 これはThe Keeperというチャットボットサービスです。
 
@@ -24,9 +24,7 @@ The Keeperはそんな「助けてもらいたいけど色々な人を紹介す�
 
 ### 関連ページ情報
 - [Facebook page](https://www.facebook.com/The-Keeper-1612480562187673)
-- ランディングページ: サイトフォルダーで`npm run serve`コマンドで起動してください。
-
-![Landing page](readme-img/site.jpg)
+- [Landing page](https://team-surfer.herokuapp.com/?fbclid=IwAR2OUf7eCHHxgmLKFBVjgWQ3HTmto2ku5Tz0Z9H1shKhraUkkc_q5rr1Tx4)
 
 # チーム
 - Miyuki Okabe
