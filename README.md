@@ -1,4 +1,4 @@
-![The Keeper icon](readme-img/the-keeper-logo1.png)
+![The Keeper icon](readme-img/the-keeper-logo1.jpg)
 # このプロジェクトについて
 これはThe Keeperというチャットボットサービスです。
 
