@@ -8,6 +8,9 @@
 
 The Keeperは「助けてもらいたいけど色々な人を紹介するなんて...アレンジが面倒...」な方のためのチャットボットサービスです！
 
+# チャットボットのwebhook URL
+## [https://github.com/misu007/the-keeper-webhook](https://github.com/misu007/the-keeper-webhook)
+
 # ユーザーフロー
 ![The Keeper ui flow](readme-img/flow.jpg)
 
@@ -17,12 +20,14 @@ The Keeperは「助けてもらいたいけど色々な人を紹介するなん�
 2. 受取人はThe keeperから送られたQRコードで認証を受けて受取りを完了する
 3. 依頼人は受取り完了の通知を受け取る
 
-# memo
+# ランディング・ページについて
 ランディングページはnpm vuejsを使っています。サイトを確認する場合はサイトフォルダーで`npm run serve`コマンドを使います。
+![Landing page](readme-img/site.png)
+
 
 # チーム
 - Miyuki Okabe
-- Michikazu Sugahara
+- [Michikazu Sugahara](https://github.com/misu007)
 - Shintaro Umezawa
 - Koji Yamamoto
 - [Yukino Kohmoto](http://yukinokoh.github.io/)
